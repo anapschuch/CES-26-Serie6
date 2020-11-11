@@ -1,0 +1,63 @@
+.container {
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 15px;
+    width: 300px;
+    background-color: lightslategray;
+}
+
+.buttons {
+    width: 55px;
+    height: 55px;
+    font-size: x-large
+}
+
+.buttonClear {
+    height: 55px;
+    width: 235px;
+    font-size: large;
+}
+
+.tableOp {
+    margin: auto;
+    background-color: lightslategray;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.tableDisplay {
+    margin: auto;
+    background-color: lightslategray;
+    width: 240px;
+    display: block;
+    margin: 0 auto;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.displayExpression {
+    font-size: large;
+    height: 45px;
+    text-align: left;
+    text-indent: 10px;
+    background-color: white;
+    width: 221px;
+    padding-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.displayResult {
+    overflow-x: auto;
+    font-size: x-large;
+    height: 55px;
+    text-indent: 10px;
+    border-top: none;
+    padding-right: 10px;
+    text-align: right;
+    background-color: white;
+    position: relative;
+    top: -2px;
+    width: 221px;
+    padding-bottom: 0px;
+}
